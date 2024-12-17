@@ -60,6 +60,10 @@
   .banner .icons {
     justify-content: center;
   }
+  .banner .buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
   /* banner end */
   /* about */
   .about {
@@ -138,7 +142,8 @@
     font-size: 18px;
   }
   .about .image {
-    left: 47px;
+    top: -98px;
+    left: 29px;
   }
   /* skills */
   .skill {
@@ -206,7 +211,7 @@
 }
 @media (min-width: 993px) and (max-width: 1024px) {
   .about .image {
-    left: 2px;
+    left: 78px;
   }
 }
 @media only screen and (max-width: 1199px) {

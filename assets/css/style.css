@@ -172,6 +172,9 @@ main {
 }
 .banner .buttons {
   padding-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 13px;
 }
 /* main end */
 
@@ -211,8 +214,10 @@ main {
 .about .image {
   position: absolute;
   z-index: 2;
-  top: -155px;
+  top: -140px;
   left: 47px;
+  height: 265px;
+  width: 265px;
 }
 
 .about .card {
