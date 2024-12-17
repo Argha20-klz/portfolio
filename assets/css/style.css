@@ -155,6 +155,7 @@ main {
 .banner .right {
   width: 50%;
 }
+.buttons .btn,
 .btn {
   border: none;
   padding: 9px 25px;
@@ -166,6 +167,7 @@ main {
   color: rgba(50, 57, 70, 1);
   background-color: var(--color-one);
   transition: 0.5s;
+  text-decoration: none;
 }
 .btn:hover {
   background-color: var(--color-white);
